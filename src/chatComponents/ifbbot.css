@@ -64,3 +64,17 @@
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
 }
+
+.react-chatbot-kit-chat-header::before {
+  content: "";
+  background: url("/ifblogo.svg") no-repeat center;
+  background-size: 28px;
+  width: 28px;
+  height: 28px;
+  display: inline-block;
+  border-radius: 10px;
+  border-left: 5px solid #fff !important;
+  border-right: 5px solid #fff !important;
+  border-top: 5px solid #fff !important;
+  border-bottom: 5px solid #fff !important;
+}
