@@ -1,0 +1,66 @@
+/* chatbot-custom.css */
+.react-chatbot-kit-chat-container {
+  width: 100% !important; /* 👈 força a nova largura */
+  max-width: 100%;
+}
+/* === Força o alinhamento do BOT à esquerda === */
+.react-chatbot-kit-chat-bot-message-container {
+  display: flex !important;
+  justify-content: flex-start !important;
+}
+
+/* === Ajusta a bolha da mensagem do BOT === */
+.react-chatbot-kit-chat-bot-message {
+  background-color: #65dab3 !important; /* cor neutra */
+  color: #000 !important;
+  border-radius: 16px !important;
+  padding: 10px 14px !important;
+  max-width: 80% !important;
+  align-self: flex-start !important;
+  text-align: left !important;
+}
+
+/* === Corrige a setinha do BOT (triângulo) === */
+.react-chatbot-kit-chat-bot-message-arrow {
+  border-right: 8px solid #65dab3 !important; /* mesma cor da bolha */
+  border-left: none !important;
+  margin-left: 0px !important;
+  margin-right: 0 !important;
+}
+
+/* === Usuário continua à direita (opcional) === */
+.react-chatbot-kit-user-chat-message-container {
+  display: flex !important;
+  justify-content: flex-end !important;
+}
+
+.react-chatbot-kit-user-chat-message {
+  background-color: #8af15d !important;
+  color: rgb(82, 79, 79) !important;
+  border-radius: 12px !important;
+  padding: 10px 14px !important;
+  max-width: 80% !important;
+  align-self: flex-end !important;
+  text-align: right !important;
+}
+
+.react-chatbot-kit-user-chat-message-arrow {
+  border-left: 10px solid #8af15d !important;
+  border-right: none !important;
+  margin-right: 0px !important;
+  margin-left: 0 !important;
+}
+
+/* === Header personalizado (verde + texto branco) === */
+.react-chatbot-kit-chat-header {
+  background-color: #4caf50 !important; /* tom de verde */
+  color: #fff !important;
+  font-weight: bold;
+  font-size: 16px;
+  display: flex !important; /* habilita flex layout */
+  justify-content: center !important; /* centraliza horizontalmente */
+  align-items: center !important; /* centraliza verticalmente */
+  padding: 12px 0;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
