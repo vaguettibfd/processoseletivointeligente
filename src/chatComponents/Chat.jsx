@@ -9,7 +9,7 @@ import './ifbbot.css';
 
 // === Configuração do chatbot ===
 const config = {
-  botName: 'Assistente IFB',
+  botName: 'Assistente de IA - IFB',
 
   initialMessages: [
     {
@@ -29,7 +29,7 @@ const config = {
     botAvatar: (props) => (
       <img
         src={`${import.meta.env.BASE_URL}avatar1.svg`}
-        alt="Assistente IFB"
+        alt="Assistente de IA - IFB"
         style={{
           width: 40,
           height: 40,
@@ -120,7 +120,7 @@ export default function Chat() {
         config={config}
         messageParser={MessageParser}
         actionProvider={ActionProvider}
-        headerText="Assistente IFB"
+        headerText="Assistente de IA - IFB"
         placeholderText="Digite sua dúvida..."
       />
     </div>
